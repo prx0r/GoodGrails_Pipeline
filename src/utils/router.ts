@@ -147,12 +147,18 @@ export class Router {
    * Add a route with any HTTP method
    */
   private addRoute(method: string, path: string, handler: RouteHandler): void {
-    // Extract param names from path (e.g., /books/:id -> ['id'])
+    // Extract param names from path (e.g., /books/:id -> ['id']).
+    // A trailing :name+ matches the rest of the path (R2 keys contain slashes).
     const paramNames: string[] = [];
-    const pattern = path.replace(/:(\w+)/g, (_, name) => {
-      paramNames.push(name);
-      return '([^/]+)';
-    });
+    const pattern = path
+      .replace(/:(\w+)\+/g, (_, name) => {
+        paramNames.push(name);
+        return '(.+)';
+      })
+      .replace(/:(\w+)/g, (_, name) => {
+        paramNames.push(name);
+        return '([^/]+)';
+      });
 
     // Create regex pattern (exact match)
     const regex = new RegExp(`^${pattern}$`);

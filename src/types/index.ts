@@ -12,11 +12,23 @@ export interface Env {
   STRIPE_SECRET_KEY?: string;
   JWT_SECRET?: string;
 
+  // Multichannel seller secrets (all optional until a channel is enabled)
+  ADMIN_TOKEN?: string;
+  EBAY_CLIENT_ID?: string;
+  EBAY_CLIENT_SECRET?: string;
+  EBAY_REFRESH_TOKEN?: string;
+  EBAY_ENVIRONMENT?: string; // 'sandbox' | 'production'
+  ABEBOOKS_API_KEY?: string;
+  ABEBOOKS_API_SECRET?: string;
+  BIBLIO_API_KEY?: string;
+
   // Environment variables
   FRONTEND_URL: string;
   ADMIN_URL: string;
   ENVIRONMENT: string;
 }
+
+export * from './domain';
 
 // Book types
 export interface Book {
@@ -86,8 +98,8 @@ export interface IngestBookResponse {
 }
 
 export interface ExternalMetadata {
-  open_library?: OpenLibraryData;
-  google_books?: GoogleBooksData;
+  open_library?: OpenLibraryData | null;
+  google_books?: GoogleBooksData | null;
   reviews?: Review[];
   market_prices?: MarketPrice[];
 }

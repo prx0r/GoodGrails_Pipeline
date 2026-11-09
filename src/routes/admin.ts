@@ -5,8 +5,7 @@ import {
   parseJSON,
   successResponse,
   errorResponse,
-  handleError,
-  BookstoreError
+  handleError
 } from '../utils/helpers';
 
 /**
@@ -79,7 +78,7 @@ export async function approveBook(
  * Reject/remove a book
  */
 export async function rejectBook(
-  request: Request,
+  _request: Request,
   env: Env,
   bookId: string
 ): Promise<Response> {
@@ -133,7 +132,7 @@ export async function listBooks(request: Request, env: Env): Promise<Response> {
  * Get a single book by ID
  */
 export async function getBook(
-  request: Request,
+  _request: Request,
   env: Env,
   bookId: string
 ): Promise<Response> {

@@ -16,7 +16,7 @@ export class IngestionService {
   private storage: StorageService;
   private enrichment: EnrichmentService;
 
-  constructor(private env: Env) {
+  constructor(env: Env) {
     this.db = new DatabaseService(env);
     this.metadata = new MetadataService();
     this.storage = new StorageService(env);

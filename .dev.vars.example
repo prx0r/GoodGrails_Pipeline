@@ -1,0 +1,11 @@
+# Copy to .dev.vars for local `wrangler dev` (never commit .dev.vars).
+ADMIN_TOKEN=dev-change-me
+
+# Optional marketplace credentials. Leave blank until a channel is approved.
+EBAY_CLIENT_ID=
+EBAY_CLIENT_SECRET=
+EBAY_REFRESH_TOKEN=
+EBAY_ENVIRONMENT=sandbox
+ABEBOOKS_API_KEY=
+ABEBOOKS_API_SECRET=
+BIBLIO_API_KEY=

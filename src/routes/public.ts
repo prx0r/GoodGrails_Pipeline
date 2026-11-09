@@ -42,7 +42,7 @@ export async function listPublicBooks(request: Request, env: Env): Promise<Respo
  * Get a single book by ID (public view)
  */
 export async function getPublicBook(
-  request: Request,
+  _request: Request,
   env: Env,
   bookId: string
 ): Promise<Response> {
@@ -96,7 +96,7 @@ export async function searchBooks(request: Request, env: Env): Promise<Response>
  * GET /api/health
  * Health check endpoint
  */
-export async function healthCheck(request: Request, env: Env): Promise<Response> {
+export async function healthCheck(_request: Request, env: Env): Promise<Response> {
   try {
     // Test database connection
     const result = await env.DB.prepare('SELECT 1 as test').first();

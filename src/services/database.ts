@@ -1,4 +1,4 @@
-import { Env, Book, Order, BookCondition, BookStatus } from '../types';
+import { Env, Book, Order, BookStatus } from '../types';
 import { generateUUID, getCurrentTimestamp } from '../utils/helpers';
 
 /**

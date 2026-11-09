@@ -13,7 +13,7 @@ if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
   echo "⚠️  CLOUDFLARE_API_TOKEN not set"
   echo ""
   echo "Please run:"
-  echo "export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD"
+  echo "export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>"
   echo ""
   exit 1
 fi

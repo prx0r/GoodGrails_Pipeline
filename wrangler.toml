@@ -1,93 +1,66 @@
-name = "bookstore-api"
+name = "goodgrails-seller"
 main = "src/index.ts"
 compatibility_date = "2024-10-01"
 node_compat = true
 
-# Account ID
+# Account ID (not a credential; the API token itself must be a GitHub/Wrangler secret)
 account_id = "954612afb5a97bb15dddcdc70176813d"
 
-# D1 Database binding
+# D1: single authoritative inventory database
 [[d1_databases]]
 binding = "DB"
 database_name = "bookstore-db"
 database_id = "a6958759-920f-464b-9eb8-9d44257cfe3b"
 
-# Vectorize binding (create index first via CLI)
-# wrangler vectorize create book-embeddings --dimensions=768 --metric=cosine
-# Uncomment after creating the index:
-# [[vectorize]]
-# binding = "VECTORIZE_INDEX"
-# index_name = "book-embeddings"
-
-# Workers AI binding (for embeddings)
-# Uncomment if needed:
-# [ai]
-# binding = "AI"
-
-# R2 bucket binding (for assets)
+# R2: actual-copy photographs and exports
 [[r2_buckets]]
 binding = "ASSETS"
 bucket_name = "bookstore-assets"
 
-# KV namespace binding (for config)
+# KV: optional config/cache
 [[kv_namespaces]]
 binding = "CONFIG"
 id = "602c9367a7794c73b52dcc9fe1cb3e1e"
 
-# Queue for blockchain recording (create via: wrangler queues create blockchain-queue)
-# Uncomment after creating the queue:
-# [[queues.producers]]
-# binding = "BLOCKCHAIN_QUEUE"
-# queue = "blockchain-queue"
-#
-# [[queues.consumers]]
-# queue = "blockchain-queue"
-# max_batch_size = 10
-# max_batch_timeout = 30
+# Workers AI (optional; heuristics are NOT labelled AI enrichment without it)
+# [ai]
+# binding = "AI"
 
-# Scheduled job for monthly donations (1st of month at 9am)
-# Uncomment when ready:
-# [triggers]
-# crons = ["0 9 1 * *"]
-
-# Public environment variables
 [vars]
 FRONTEND_URL = "https://yourdomain.com"
 ADMIN_URL = "https://admin.yourdomain.com"
 ENVIRONMENT = "production"
 
-# Secret environment variables (set via: wrangler secret put <NAME>)
-# DO NOT PUT ACTUAL VALUES HERE - use wrangler secret command
+# ==================== SECRETS ====================
+# Set with:  wrangler secret put <NAME>
+# NEVER put real values in this file.
 #
-# Required secrets:
-# - OPENAI_API_KEY (for metadata enrichment)
-# - STRIPE_SECRET_KEY (for payments)
-# - STRIPE_WEBHOOK_SECRET (for webhook verification)
-# - BLOCKCHAIN_PRIVATE_KEY (for Base contract interaction)
-# - PINATA_JWT (for IPFS uploads)
-# - ADMIN_EMAIL (for notifications)
-# - JWT_SECRET (for admin auth)
-# - CONTRACT_ADDRESS (Base contract address)
+# Required to use the dashboard/admin API:
+#   ADMIN_TOKEN                  bearer token for /api/admin/* and /
+#
+# Required only when a marketplace is actually enabled:
+#   EBAY_CLIENT_ID, EBAY_CLIENT_SECRET, EBAY_REFRESH_TOKEN
+#   EBAY_ENVIRONMENT             "sandbox" or "production"
+#   ABEBOOKS_API_KEY, ABEBOOKS_API_SECRET
+#   BIBLIO_API_KEY
+#
+# Legacy (not required for the bookseller): OPENAI_API_KEY, STRIPE_SECRET_KEY,
+# JWT_SECRET, BLOCKCHAIN_PRIVATE_KEY, PINATA_JWT, CONTRACT_ADDRESS.
+#
+# The old repo exposed a Cloudflare API token in plaintext. Treat it as
+# compromised: revoke it in the Cloudflare dashboard and issue a new one.
 
-# Development/staging environment
 [env.development]
-name = "bookstore-api-dev"
+name = "goodgrails-seller-dev"
 
 [env.development.vars]
-FRONTEND_URL = "http://localhost:3000"
-ADMIN_URL = "http://localhost:3001"
+FRONTEND_URL = "http://localhost:8787"
+ADMIN_URL = "http://localhost:8787"
 ENVIRONMENT = "development"
 
-# Use development/test resources in dev
 [[env.development.d1_databases]]
 binding = "DB"
 database_name = "bookstore-db"
 database_id = "a6958759-920f-464b-9eb8-9d44257cfe3b"
 
-# Routes (optional - for custom domains)
-# [routes]
-# pattern = "api.yourdomain.com/*"
-# zone_name = "yourdomain.com"
-
-# Compatibility flags (use array format)
 compatibility_flags = ["nodejs_compat"]

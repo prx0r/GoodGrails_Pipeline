@@ -35,3 +35,10 @@ worker-configuration.d.ts
 
 # Testing
 coverage/
+
+# Local secrets
+.dev.vars
+
+# Private handoff data (never commit)
+handoff/
+private/

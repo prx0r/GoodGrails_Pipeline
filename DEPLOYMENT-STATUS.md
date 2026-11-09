@@ -28,7 +28,7 @@ Click **"New repository secret"** and add:
 
 **Secret 1:**
 - Name: `CLOUDFLARE_API_TOKEN`
-- Value: `tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD`
+- Value: `<REDACTED_LEAKED_TOKEN_ROTATE_NOW>`
 
 **Secret 2:**
 - Name: `CLOUDFLARE_ACCOUNT_ID`
@@ -114,7 +114,7 @@ Check the GitHub Actions logs for specific error messages
 ### Your Cloudflare Details
 
 - **Account ID:** `954612afb5a97bb15dddcdc70176813d`
-- **API Token:** `tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD`
+- **API Token:** `<REDACTED_LEAKED_TOKEN_ROTATE_NOW>`
 - **Database ID:** `a6958759-920f-464b-9eb8-9d44257cfe3b`
 - **R2 Bucket:** `bookstore-assets`
 - **KV Namespace:** `602c9367a7794c73b52dcc9fe1cb3e1e`

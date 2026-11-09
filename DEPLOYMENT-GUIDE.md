@@ -2,13 +2,13 @@
 
 ## Using Your Cloudflare API Token
 
-You have: `tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD`
+You have: `<REDACTED_LEAKED_TOKEN_ROTATE_NOW>`
 
 ### Step 1: Set Your API Token
 
 ```bash
 # Set the environment variable (Windows Git Bash)
-export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 
 # Verify it's set
 echo $CLOUDFLARE_API_TOKEN
@@ -16,7 +16,7 @@ echo $CLOUDFLARE_API_TOKEN
 
 Alternatively, create a `.env` file:
 ```bash
-CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 ```
 
 ### Step 2: Deploy Your Worker
@@ -73,7 +73,7 @@ The code we just added will serve images through your Worker:
 ### 1. Set API Token
 
 ```bash
-export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 ```
 
 ### 2. Apply Database Schema to Remote
@@ -178,7 +178,7 @@ If deployment fails with auth error:
 npx wrangler login
 
 # Or use API token
-export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 ```
 
 ### Database Not Found
@@ -249,7 +249,7 @@ Run these commands in order:
 
 ```bash
 # 1. Set API token
-export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 
 # 2. Deploy schema
 npx wrangler d1 execute bookstore-db --remote --file=schema.sql

@@ -9,7 +9,7 @@ if "%CLOUDFLARE_API_TOKEN%"=="" (
   echo WARNING: CLOUDFLARE_API_TOKEN not set
   echo.
   echo Please run:
-  echo set CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+  echo set CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
   echo.
   pause
   exit /b 1

@@ -99,7 +99,7 @@ export class MetadataService {
         return null;
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
       const bookKey = `ISBN:${isbn}`;
 
       if (!data[bookKey]) {
@@ -138,7 +138,7 @@ export class MetadataService {
         return null;
       }
 
-      const data = await response.json();
+      const data: any = await response.json();
 
       if (!data.items || data.items.length === 0) {
         console.warn(`No Google Books data for ISBN: ${isbn}`);
@@ -167,7 +167,7 @@ export class MetadataService {
 
   // ========== HELPER METHODS ==========
 
-  private extractAuthor(gb?: GoogleBooksData, ol?: OpenLibraryData): string {
+  private extractAuthor(gb?: GoogleBooksData | null, ol?: OpenLibraryData | null): string {
     if (gb?.authors && gb.authors.length > 0) {
       return gb.authors.join(', ');
     }
@@ -179,7 +179,7 @@ export class MetadataService {
     return 'Unknown Author';
   }
 
-  private extractCoverUrl(gb?: GoogleBooksData, ol?: OpenLibraryData): string | undefined {
+  private extractCoverUrl(gb?: GoogleBooksData | null, ol?: OpenLibraryData | null): string | undefined {
     // Prefer high-quality cover
     if (gb?.cover_url) return gb.cover_url;
     if (ol?.cover_url) return ol.cover_url;
@@ -189,7 +189,7 @@ export class MetadataService {
     return undefined;
   }
 
-  private extractISBN13(gb?: GoogleBooksData, ol?: OpenLibraryData): string | undefined {
+  private extractISBN13(gb?: GoogleBooksData | null, _ol?: OpenLibraryData | null): string | undefined {
     // Try to find ISBN-13 from industry identifiers in Google Books
     if (gb) {
       return undefined; // Could extract from volumeInfo.industryIdentifiers if needed
@@ -203,7 +203,7 @@ export class MetadataService {
   calculateSuggestedPrice(
     costPrice: number,
     condition: string,
-    marketPrices?: number[]
+    _marketPrices?: number[]
   ): number {
     // Simple markup calculation
     // In production, this would be more sophisticated

@@ -5,7 +5,7 @@ import { Env, AIEnrichment, Review } from '../types';
  * Uses AI to generate vibe tags, emotional tone, and other enrichment data
  */
 export class EnrichmentService {
-  constructor(private env: Env) {}
+  constructor(_env: Env) {}
 
   /**
    * Generate AI enrichment data for a book
@@ -42,77 +42,6 @@ export class EnrichmentService {
         themes: []
       };
     }
-  }
-
-  /**
-   * Generate enrichment using OpenAI (if API key is available)
-   */
-  private async enrichWithOpenAI(
-    title: string,
-    author: string,
-    description?: string,
-    reviews?: Review[]
-  ): Promise<AIEnrichment> {
-    if (!this.env.OPENAI_API_KEY) {
-      throw new Error('OpenAI API key not configured');
-    }
-
-    const reviewText = reviews
-      ?.slice(0, 5)
-      .map(r => r.text)
-      .join('\n\n') || '';
-
-    const prompt = `Analyze this book and provide enrichment data in JSON format:
-
-Title: ${title}
-Author: ${author}
-Description: ${description || 'N/A'}
-
-Sample Reviews:
-${reviewText}
-
-Provide the following in JSON format:
-{
-  "emotional_tone": ["adjective1", "adjective2"],
-  "shock_factor": 1-10,
-  "pace": "slow_burn" | "moderate" | "fast_paced",
-  "atmosphere": ["adjective1", "adjective2"],
-  "vibe_keywords": "short descriptive phrase",
-  "themes": ["theme1", "theme2"],
-  "similar_to": ["author1", "author2"]
-}`;
-
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${this.env.OPENAI_API_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: 'gpt-4o-mini',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are a literary analyst. Respond only with valid JSON.'
-          },
-          {
-            role: 'user',
-            content: prompt
-          }
-        ],
-        temperature: 0.7,
-        max_tokens: 500
-      })
-    });
-
-    if (!response.ok) {
-      throw new Error(`OpenAI API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    const content = data.choices[0].message.content;
-
-    return JSON.parse(content);
   }
 
   // ========== SIMPLE HEURISTIC METHODS (Fallback) ==========
@@ -160,7 +89,7 @@ Provide the following in JSON format:
     return tones.length > 0 ? tones : ['neutral'];
   }
 
-  private calculateShockFactor(description?: string, reviews?: Review[]): number {
+  private calculateShockFactor(description?: string, _reviews?: Review[]): number {
     // Simple heuristic - check for shock-related keywords
     const shockKeywords = [
       'shocking', 'disturbing', 'graphic', 'controversial',

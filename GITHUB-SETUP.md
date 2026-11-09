@@ -46,7 +46,7 @@ git push -u origin main
 
    **Secret 1:**
    - Name: `CLOUDFLARE_API_TOKEN`
-   - Value: `tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD`
+   - Value: `<REDACTED_LEAKED_TOKEN_ROTATE_NOW>`
 
    **Secret 2:**
    - Name: `CLOUDFLARE_ACCOUNT_ID`
@@ -157,7 +157,7 @@ curl https://bookstore-api-XXXXX.workers.dev/api/health
 If you prefer to deploy manually without GitHub Actions:
 
 ```bash
-export CLOUDFLARE_API_TOKEN=tTQTGCGM5RsrVJOAAwo2p2D4CTCo3ZerKphJ6fmD
+export CLOUDFLARE_API_TOKEN=<REDACTED_LEAKED_TOKEN_ROTATE_NOW>
 npx wrangler deploy
 ```
 

@@ -1,13 +1,19 @@
 {
-  "name": "bookstore-api",
-  "version": "1.0.0",
-  "description": "AI-powered charitable bookstore on Cloudflare Workers",
+  "name": "goodgrails-seller",
+  "version": "2.0.0",
+  "description": "Multichannel specialist-book seller on Cloudflare Workers (D1 + R2 + KV)",
   "main": "src/index.ts",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "tail": "wrangler tail",
-    "test": "vitest"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:migrate:local": "wrangler d1 execute bookstore-db --local --file=migrations/0001_multichannel.sql",
+    "db:migrate:remote": "wrangler d1 execute bookstore-db --remote --file=migrations/0001_multichannel.sql",
+    "db:schema:local": "wrangler d1 execute bookstore-db --local --file=schema.sql",
+    "db:schema:remote": "wrangler d1 execute bookstore-db --remote --file=schema.sql"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20241022.0"
@@ -15,7 +21,7 @@
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.6.3",
-    "wrangler": "^3.80.0",
-    "vitest": "^1.0.0"
+    "vitest": "^1.0.0",
+    "wrangler": "^3.80.0"
   }
 }
