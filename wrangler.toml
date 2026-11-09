@@ -1,7 +1,7 @@
 name = "goodgrails-seller"
 main = "src/index.ts"
 compatibility_date = "2024-10-01"
-node_compat = true
+compatibility_flags = ["nodejs_compat"]
 
 # Account ID (not a credential; the API token itself must be a GitHub/Wrangler secret)
 account_id = "954612afb5a97bb15dddcdc70176813d"
@@ -27,8 +27,8 @@ id = "602c9367a7794c73b52dcc9fe1cb3e1e"
 # binding = "AI"
 
 [vars]
-FRONTEND_URL = "https://yourdomain.com"
-ADMIN_URL = "https://admin.yourdomain.com"
+FRONTEND_URL = "https://goodgrails-seller.tradesprior.workers.dev"
+ADMIN_URL = "https://goodgrails-seller.tradesprior.workers.dev"
 ENVIRONMENT = "production"
 
 # ==================== SECRETS ====================
@@ -62,5 +62,3 @@ ENVIRONMENT = "development"
 binding = "DB"
 database_name = "bookstore-db"
 database_id = "a6958759-920f-464b-9eb8-9d44257cfe3b"
-
-compatibility_flags = ["nodejs_compat"]

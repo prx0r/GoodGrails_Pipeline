@@ -270,7 +270,12 @@ export async function getDraft(request: Request, env: Env, id: string): Promise<
 
 async function buildExportPayloads(env: Env): Promise<ListingPayload[]> {
   const copies = await allCopiesWithDetail(env);
-  return copies.map(c => rowToPayload(c, draftFor(c).description));
+  // Publishing always passes the human price-approval gate. Suggested prices
+  // alone must never reach a live channel feed.
+  const publishable = copies.filter(c =>
+    c.approved_price_minor != null || c.status === 'listed' || c.status === 'ready'
+  );
+  return publishable.map(c => rowToPayload(c, draftFor(c).description));
 }
 
 export async function exportBiblio(request: Request, env: Env): Promise<Response> {

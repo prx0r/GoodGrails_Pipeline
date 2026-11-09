@@ -42,3 +42,4 @@ coverage/
 # Private handoff data (never commit)
 handoff/
 private/
+exports/
