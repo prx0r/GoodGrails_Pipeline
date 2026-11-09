@@ -110,7 +110,7 @@ pre{white-space:pre-wrap;background:var(--panel2);border:1px solid var(--line);b
       return r.text().then(function(t){
         var data; try{data=JSON.parse(t);}catch(e){data={raw:t};}
         if(!r.ok) throw new Error((data&&data.error)||('HTTP '+r.status));
-        return data;
+        return (data && data.data !== undefined) ? data.data : data;
       });
     });
   }
@@ -336,7 +336,7 @@ pre{white-space:pre-wrap;background:var(--panel2);border:1px solid var(--line);b
   function manualSale(){
     var sku=document.getElementById('m_sku').value.trim(); var p=parseInt(document.getElementById('m_price').value,10);
     if(!sku||isNaN(p)){toast('SKU and price in pence are required',true);return;}
-    api('/api/admin/orders/manual',{method:'POST',body:JSON.stringify({sku:sku,price_minor:p})}).then(function(d){toast(d.data.result.message);renderOrders();}).catch(function(e){toast(e.message,true);});
+    api('/api/admin/orders/manual',{method:'POST',body:JSON.stringify({sku:sku,price_minor:p})}).then(function(d){toast(d.result&&d.result.message||"Sale recorded");renderOrders();}).catch(function(e){toast(e.message,true);});
   }
   function fulfil(id,state){
     if(!state)return;
@@ -361,7 +361,7 @@ pre{white-space:pre-wrap;background:var(--panel2);border:1px solid var(--line);b
   window.ggFilter=function(){loadInventory();};
   window.ggClose=function(e){if(e&&e.target&&e.target.className!=='drawer')return;document.getElementById('drawer').innerHTML='';};
   function closeDrawer(){document.getElementById('drawer').innerHTML='';}
-  window.ggImport=function(){api('/api/admin/import',{method:'POST'}).then(function(d){toast('Imported '+d.data.report.copiesImported+', skipped '+d.data.report.copiesSkipped+' (already present)');loadOverview();loadInventory();}).catch(function(e){toast(e.message,true);});};
+  window.ggImport=function(){api('/api/admin/import',{method:'POST'}).then(function(d){toast('Imported '+d.report.copiesImported+', skipped '+d.report.copiesSkipped+' (already present)');loadOverview();loadInventory();}).catch(function(e){toast(e.message,true);});};
   window.ggExport=function(kind){
     var urls={biblio:'/api/admin/export/biblio.csv',alibris:'/api/admin/export/alibris.csv',amazon:'/api/admin/export/amazon.csv',abebooks:'/api/admin/export/abebooks.xml'};
     fetch(urls[kind],{headers:{'Authorization':'Bearer '+token}}).then(function(r){if(!r.ok)throw new Error('Export failed');return r.blob();}).then(function(b){

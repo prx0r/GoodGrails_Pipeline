@@ -107,3 +107,29 @@ Private (`Authorization: Bearer $ADMIN_TOKEN`):
 - [Security](docs/SECURITY.md)
 - [Deployment](docs/DEPLOYMENT.md)
 - [Operations](docs/OPERATIONS.md)
+
+## Agent control (MCP)
+
+`mcp/server.mjs` exposes the admin API as MCP tools (inventory, verification,
+photos, pricing, comps, listings, orders, exports) so an agent can operate the
+catalogue conversationally.
+
+```bash
+npm run mcp        # stdio server; uses SELLER_API_URL + SELLER_ADMIN_TOKEN
+```
+
+Register with opencode (`~/.config/opencode/opencode.jsonc`):
+
+```json
+"mcp": {
+  "seller": {
+    "type": "local",
+    "command": ["node", "/home/box/Documents/patala/GoodGrails_Pipeline/mcp/server.mjs"],
+    "enabled": true
+  }
+}
+```
+
+The server reads `ADMIN_TOKEN` from `.dev.vars` when `SELLER_ADMIN_TOKEN` is not
+set, so local development needs no extra config. It expects `wrangler dev` to
+be running (`npm run dev`, default `http://127.0.0.1:8787`).
