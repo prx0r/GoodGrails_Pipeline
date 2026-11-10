@@ -53,6 +53,14 @@ router.get('/dashboard', async () =>
 // ========== PUBLIC ROUTES ==========
 
 router.get('/api/health', publicRoutes.healthCheck);
+// eBay Marketplace Account Deletion notification (public, no auth — eBay calls it).
+// Required for production keyset compliance; single-seller store holds no member PII.
+router.get('/api/ebay/account-deletion', (req, env) =>
+  import('./routes/ebayDeletion').then(m => m.handleDeletionChallenge(req, env))
+);
+router.post('/api/ebay/account-deletion', (req, env) =>
+  import('./routes/ebayDeletion').then(m => m.handleDeletionNotification(req, env))
+);
 router.get('/api/books', publicRoutes.listPublicBooks);
 router.get('/api/books/:id', (req, env, params) =>
   publicRoutes.getPublicBook(req, env, params!.id)
