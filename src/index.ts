@@ -52,6 +52,20 @@ router.get('/dashboard', async () =>
 
 // ========== PUBLIC ROUTES ==========
 
+// Privacy policy (required for eBay OAuth consent — single-user own-store app).
+router.get('/privacy', async () =>
+  new Response(
+    `Hegelian Books / GoodGrails Seller — Privacy Policy\n\n` +
+    `This application manages a single seller's own book inventory (own listings only).\n` +
+    `It does not collect, store, or share any third-party eBay member data.\n` +
+    `eBay OAuth is used solely to let the seller's own application manage their own\n` +
+    `inventory, offers, and orders via the eBay Sell APIs.\n` +
+    `No buyer or member personal data is retained beyond what is required to fulfil orders.\n` +
+    `Contact: hegelianuk@gmail.com\n`,
+    { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=3600' } }
+  )
+);
+
 router.get('/api/health', publicRoutes.healthCheck);
 // eBay Marketplace Account Deletion notification (public, no auth — eBay calls it).
 // Required for production keyset compliance; single-seller store holds no member PII.
