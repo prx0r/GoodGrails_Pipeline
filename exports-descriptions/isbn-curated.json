@@ -2,11 +2,11 @@
   {
     "sku": "BOOK-001",
     "title": "Jesus and the victory of God",
-    "isbn": "9780281074051",
-    "isbnSource": "openlibrary",
-    "isbnConfidence": "medium",
+    "isbn": "9780281050536",
+    "isbnSource": "owner-verified blue HB + AbeBooks (SPCK 1996 hardcover, scarce, 0 current copies)",
+    "isbnConfidence": "high",
     "author": "N. T. Wright",
-    "binding": "Hardback",
+    "binding": "Blue hardback",
     "condition": "Very Good",
     "photoNote": "Blue SPCK HB with jacket, IMG_2671/2672",
     "needsConfirm": true

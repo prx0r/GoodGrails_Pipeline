@@ -5,12 +5,6 @@
   ],
   "kind": "actual"
  },
- "BOOK-001": {
-  "urls": [
-   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-001_stock.jpg"
-  ],
-  "kind": "stock"
- },
  "BOOK-003": {
   "urls": [
    "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-003_stock.jpg"
@@ -403,6 +397,12 @@
  "NEW-RAINBOW": {
   "urls": [
    "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/NEW-RAINBOW_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-001": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-001_placeholder.jpg"
   ],
   "kind": "placeholder"
  }
