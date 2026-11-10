@@ -268,7 +268,8 @@ export class EbayClient {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'application/json',
-          'Content-Language': 'en-GB'
+          'Content-Language': 'en-GB',
+          'Accept-Language': 'en-GB'
         },
         body: JSON.stringify(body)
       }
@@ -276,7 +277,11 @@ export class EbayClient {
     if (!res.ok) throw new Error(`eBay inventory error: ${res.status} ${await res.text()}`);
   }
 
-  async createOffer(token: string, p: ListingPayload, marketplaceId = 'EBAY_GB'): Promise<string> {
+  async createOffer(token: string, p: ListingPayload, marketplaceId = 'EBAY_GB', policies?: {
+    fulfillmentPolicyId?: string;
+    paymentPolicyId?: string;
+    returnPolicyId?: string;
+  }): Promise<string> {
     const body = {
       sku: p.sku,
       marketplaceId,
@@ -284,6 +289,9 @@ export class EbayClient {
       availableQuantity: p.quantity,
       categoryId: '261186', // Books & Magazines > Books
       listingDescription: p.description,
+      ...(policies?.fulfillmentPolicyId ? { fulfillmentPolicyId: policies.fulfillmentPolicyId } : {}),
+      ...(policies?.paymentPolicyId ? { paymentPolicyId: policies.paymentPolicyId } : {}),
+      ...(policies?.returnPolicyId ? { returnPolicyId: policies.returnPolicyId } : {}),
       pricingSummary: {
         price: { value: (p.priceMinor / 100).toFixed(2), currency: p.currency }
       }
@@ -293,7 +301,8 @@ export class EbayClient {
       headers: {
         Authorization: `Bearer ${token}`,
         'Content-Type': 'application/json',
-        'Content-Language': 'en-GB'
+        'Content-Language': 'en-GB',
+          'Accept-Language': 'en-GB'
       },
       body: JSON.stringify(body)
     });
@@ -307,7 +316,8 @@ export class EbayClient {
       `${this.base}/sell/inventory/v1/offer/${encodeURIComponent(offerId)}/publish`,
       {
         method: 'POST',
-        headers: { Authorization: `Bearer ${token}`, 'Content-Language': 'en-GB' }
+        headers: { Authorization: `Bearer ${token}`, 'Content-Language': 'en-GB',
+          'Accept-Language': 'en-GB' }
       }
     );
     if (!res.ok) throw new Error(`eBay publish error: ${res.status} ${await res.text()}`);
@@ -325,10 +335,10 @@ export class EbayClient {
 
 function mapEbayCondition(condition?: string | null): string {
   const c = (condition || '').toLowerCase();
-  if (c.includes('like new') || c.includes('fine')) return 'LIKE_NEW';
-  if (c.includes('very good')) return 'VERY_GOOD';
-  if (c.includes('acceptable') || c.includes('poor')) return 'ACCEPTABLE';
-  return 'GOOD';
+  if (c.includes('like new')) return 'LIKE_NEW';
+  if (c.includes('very good')) return 'USED_VERY_GOOD';
+  if (c.includes('acceptable') || c.includes('poor')) return 'USED_ACCEPTABLE';
+  return 'USED_GOOD';
 }
 
 // ==================== STATUS ====================
