@@ -1,0 +1,962 @@
+[
+  {
+    "sku": "BOOK-001",
+    "title": "Jesus and the victory of God",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": [
+        "1996 SPCK used copies as low as "
+      ]
+    },
+    "ol": {
+      "olTitle": "Jesus and the Victory of God",
+      "olAuthor": "N. T. Wright",
+      "olYear": 2015,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-002",
+    "title": "Poems of Truth",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Poems Along the Way of Truth",
+      "olAuthor": "Allen S Funnyé",
+      "olYear": 2006,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-003",
+    "title": "Encyclopedia of Religion and Nature Volumes I and II",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-004",
+    "title": "The New Science of Dreaming (Volumes 1-3)",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "2007 Praeger hardcover assumed",
+        "2007 Praeger"
+      ]
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-005",
+    "title": "Studies In Philosophy - Outstanding Dissertations: Frege and the logic of sense and reference",
+    "assumed": {
+      "isbns": [
+        "9780415937900"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "2001 Routledge hardcover ISBN ",
+        "2002 Klement hardback ISBN "
+      ]
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-006",
+    "title": "The Listening Self: Personal Growth, Social Change and the Closure of Metaphysics",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "1989 Routledge paperback may be chea"
+      ]
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-007",
+    "title": "The Bardo Guidebook",
+    "assumed": {
+      "isbns": [
+        "9789627341116"
+      ],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": [
+        "1991 Rangjung Yeshe edition",
+        "1991 Rangjung Yeshe paperback "
+      ]
+    },
+    "ol": {
+      "olTitle": "The Bardo Guidebook",
+      "olAuthor": "Chokyi Rinpoche",
+      "olYear": 2004,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-008",
+    "title": "Locke",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "The Locked Door",
+      "olAuthor": "Freida McFadden",
+      "olYear": 2021,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-009",
+    "title": "Reasoning",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Thirteen reasons why",
+      "olAuthor": "Jay Asher, Jay Asher",
+      "olYear": 2007,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-010",
+    "title": "Cybernetics of Consciousness - Theory and Practice of Meditation",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-011",
+    "title": "Reincarnation- Past Lives and The Akashic Record",
+    "assumed": {
+      "isbns": [
+        "9780983200277"
+      ],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-012",
+    "title": "Plato's Ghost",
+    "assumed": {
+      "isbns": [
+        "9780691136103"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Plato's ghost",
+      "olAuthor": "Jeremy J. Gray",
+      "olYear": 2008,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-013",
+    "title": "Plato's Euthyphro: Apology of Socrates and Crito",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Plato's Euthyphro Apology of Socrates and Crito",
+      "olAuthor": "John Burnet",
+      "olYear": 1924,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-014",
+    "title": "Complete enlightenment",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Complete Enlightenment",
+      "olAuthor": "Master Sheng Yen",
+      "olYear": 1999,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-015",
+    "title": "Philosophical Studies",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Philosophical studies",
+      "olAuthor": "George Edward Moore",
+      "olYear": 1922,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-016",
+    "title": "Six yogas of Naropa & Teachings on Mahamudra",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": [
+        "1986 Snow Lion paperback"
+      ]
+    },
+    "ol": {
+      "olTitle": "Six yogas of Naropa & teachings on Mahamudra",
+      "olAuthor": "Chang, Chen-chi",
+      "olYear": 1986,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-017",
+    "title": "Against Cartesian Philosophy",
+    "assumed": {
+      "isbns": [
+        "9781591021025"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Against Cartesian Philosophy",
+      "olAuthor": "Pierre-Daniel Huet",
+      "olYear": 2003,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-018",
+    "title": "Wittgenstein and the problem of other minds",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": [
+        "1981 Harvester softcover",
+        "1981 ISBN from saved file"
+      ]
+    },
+    "ol": {
+      "olTitle": "Wittgenstein and the problem of other minds",
+      "olAuthor": "Harold Morick",
+      "olYear": 1967,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-019",
+    "title": "Postmodern anarchism",
+    "assumed": {
+      "isbns": [
+        "9780739105221"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Postmodern Anarchism",
+      "olAuthor": "Lewis Call",
+      "olYear": 2003,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-020",
+    "title": "Jean Baudrillard: A Study in Cultural Metaphysics, PB, Prentice Hall 1996",
+    "assumed": {
+      "isbns": [
+        "9780134333687"
+      ],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-021",
+    "title": "Free-born John Lilburne: English Libertarian: And Other Essays on Liberty",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-022",
+    "title": "The Real Questions - Eden to Big Apple",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-023",
+    "title": "Perennial Tradition",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Perennial Tradition",
+      "olAuthor": "Norman D Livergood",
+      "olYear": 2017,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-024",
+    "title": "Visual Representations in Science",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Visual Representations in Science",
+      "olAuthor": "Nicola Mößner",
+      "olYear": 2018,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-025",
+    "title": "Animal minds & human morals",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "1993 Cornell hardcover",
+        "1993 Cornell hardback"
+      ]
+    },
+    "ol": {
+      "olTitle": "Animal Minds and Human Morals",
+      "olAuthor": "Richard Sorabji",
+      "olYear": 1993,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-026",
+    "title": "Imagining: A Phenomenological Study - Second Edition by Edward S. Casey (Indiana, 2000)",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-027",
+    "title": "Panpsychism",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Panpsychism in the West",
+      "olAuthor": "David Skrbina",
+      "olYear": 2005,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-028",
+    "title": "Living Forms of the Imagination",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Living forms of the imagination",
+      "olAuthor": "Douglas Hedley",
+      "olYear": 2008,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-029",
+    "title": "This Matter of Culture",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "This matter of culture",
+      "olAuthor": "Jiddu Krishnamurti",
+      "olYear": 1964,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-030",
+    "title": "Seeing myself",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Teaching Myself to See",
+      "olAuthor": "Tito Mukhopadhyay",
+      "olYear": 2021,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-031",
+    "title": "Straight Course to God",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "straight course to god",
+      "olAuthor": "dom augustine morris",
+      "olYear": 1958,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-032",
+    "title": "Prior & Posterior Analytics",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Aristotle's prior and posterior analytics",
+      "olAuthor": "Aristotle",
+      "olYear": 1949,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-033",
+    "title": "Toward a science of consciousness",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": [
+        "1996 Hameroff volume"
+      ]
+    },
+    "ol": {
+      "olTitle": "Toward a Science of Consciousness",
+      "olAuthor": "Kenneth R. Pelletier",
+      "olYear": 1978,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-034",
+    "title": "The Essential Turing - ed. B Jack Copeland",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-035",
+    "title": "The Nectar of Manjushri's Speech. A Detailed Commentary on Shantideva's Way [...] Kunzang Pelden.",
+    "assumed": {
+      "isbns": [
+        "9781590306994"
+      ],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-036",
+    "title": "Ascertaining Certainty About the View",
+    "assumed": {
+      "isbns": [
+        "9781877294006"
+      ],
+      "bindingHint": "",
+      "pubHints": [
+        "2005 Zhyisil Chokyi Ghatsal "
+      ]
+    },
+    "ol": {
+      "olTitle": "Ascertaining certainty about the view",
+      "olAuthor": "Khenpo Tsultrim Gyamtso Rinpoche",
+      "olYear": 2001,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-037",
+    "title": "Time and Chance",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Time and Chance",
+      "olAuthor": "Anne Weale",
+      "olYear": 1989,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-038",
+    "title": "Science and Ethics",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Science and ethical values",
+      "olAuthor": "Bentley Glass",
+      "olYear": 1965,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-039",
+    "title": "The poetry of physics and the physics of poetry Robert K Logan",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-040",
+    "title": "Understanding the Representational Mind",
+    "assumed": {
+      "isbns": [
+        "9780262161244"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "1991 MIT hardcover",
+        "1991 MIT hardcover ISBN "
+      ]
+    },
+    "ol": {
+      "olTitle": "Understanding the representational mind",
+      "olAuthor": "Josef Perner",
+      "olYear": 1991,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-041",
+    "title": "TRUTH, VALUE & JUSTIFICATION - \\*PRICE LOWERED\\*",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-042",
+    "title": "Belief, Change and Forms of Life by D.Z. Phillips",
+    "assumed": {
+      "isbns": [
+        "9780391033856"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-043",
+    "title": "Before Dinner. Philosophy And Ethics Of Food. Michiel Korthals.",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "2004 Springer book"
+      ]
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-044",
+    "title": "Moral Matters",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Do Morals Matter?",
+      "olAuthor": "Joseph S. Nye",
+      "olYear": 2020,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-045",
+    "title": "Where Do We Go From Here? Papers From the Louisiana Seminar - Various Authors",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-046",
+    "title": "The Buddhist Unconscious",
+    "assumed": {
+      "isbns": [
+        "9780415298094"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "2003 RoutledgeCurzon hardcover",
+        "2003 Routledge hardcover ISBN "
+      ]
+    },
+    "ol": {
+      "olTitle": "The Buddhist unconscious",
+      "olAuthor": "William S. Waldron",
+      "olYear": 2003,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-047",
+    "title": "The great treatise on the stages of the path to enlightenment",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "The Great Treatise on the Stages of the Path to Enlightenment, Volume Two",
+      "olAuthor": "Tsongkhapa",
+      "olYear": 2004,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-048",
+    "title": "Patterns of Eternity",
+    "assumed": {
+      "isbns": [
+        "9780863157127"
+      ],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Patterns of Eternity",
+      "olAuthor": "Malcolm Stewart",
+      "olYear": 2009,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-049",
+    "title": "Dhammapada",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "The Dhammapada",
+      "olAuthor": "Rose Kramer",
+      "olYear": 1995,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-050",
+    "title": "The Bardo Guidebook",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": [
+        "1991 Rangjung Yeshe edition",
+        "1991 Bardo Guidebook"
+      ]
+    },
+    "ol": {
+      "olTitle": "The Bardo Guidebook",
+      "olAuthor": "Chokyi Rinpoche",
+      "olYear": 2004,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-051",
+    "title": "Kindred Sayings Parts II to V: Four Volumes",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-052",
+    "title": "Silent Mind Holy Mind : A Tibetan Lama's Reflections on Christmas - Thubten Yeshe",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-053",
+    "title": "The Flame and the Light",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": [
+        "1976 PB Good UK bookseller "
+      ]
+    },
+    "ol": {
+      "olTitle": "The flame and the light",
+      "olAuthor": "Fausset, Hugh I'Anson",
+      "olYear": 1958,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-054",
+    "title": "mind beyond death",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Mind Beyond Death",
+      "olAuthor": "Dzogchen Ponlop",
+      "olYear": 2007,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-055",
+    "title": "Plato The Republic - The Penguin Classics",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-056",
+    "title": "The Platonic Theory of Knowledge",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Six essays on the Platonic theory of knowledge",
+      "olAuthor": "Marie V. Williams",
+      "olYear": 1908,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-057",
+    "title": "Living waters",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Streams of Living Water",
+      "olAuthor": "Richard J. Foster",
+      "olYear": 1998,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-058",
+    "title": "The Magician's Tables: A Complete Book of Correspondences",
+    "assumed": {
+      "isbns": [
+        "9781841812359"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "2007 Godsfield hardback ISBN ",
+        "2007 HB UK current "
+      ]
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-059",
+    "title": "The Bhagavad Gita",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "The Bhagavad gita",
+      "olAuthor": "Juan Mascaró",
+      "olYear": 2003,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-060",
+    "title": "The Stanzas on Vibration",
+    "assumed": {
+      "isbns": [
+        "9780791412619",
+        "9780791412626"
+      ],
+      "bindingHint": "Hardcover (assumed — verify)",
+      "pubHints": [
+        "1992 SUNY Stanzas paperback used "
+      ]
+    },
+    "ol": {
+      "olTitle": "The Stanzas on Vibration",
+      "olAuthor": "Mark S.G. Dyczkowski, Varanasi",
+      "olYear": 2000,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-061",
+    "title": "A Teaching on the Chenrezig and Amitabha Sadhanas",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  },
+  {
+    "sku": "BOOK-062",
+    "title": "Polishing the diamond, enlightening the mind",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Polishing the diamond, enlightening the mind",
+      "olAuthor": "Chae-ung Kim",
+      "olYear": 1999,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-063",
+    "title": "Pointing out the great way",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "Paperback (assumed — verify)",
+      "pubHints": []
+    },
+    "ol": {
+      "olTitle": "Pointing Out the Great Way",
+      "olAuthor": "Daniel Brown",
+      "olYear": 2006,
+      "olPublisher": "",
+      "olIsbn": []
+    }
+  },
+  {
+    "sku": "BOOK-064",
+    "title": "I am the word (signed copy)",
+    "assumed": {
+      "isbns": [],
+      "bindingHint": "",
+      "pubHints": []
+    },
+    "ol": null
+  }
+]
