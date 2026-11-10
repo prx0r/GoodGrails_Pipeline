@@ -9,7 +9,7 @@ try { manifest = JSON.parse(fs.readFileSync('./exports-descriptions/photo-manife
 function imgFor(d) {
   const m = manifest[d.sku];
   if (m) {
-    const tag = m.kind === 'actual' ? 'ACTUAL COPY' : 'STOCK — REPLACE BEFORE PUBLISH';
+    const tag = m.kind === 'actual' ? 'ACTUAL COPY' : m.kind === 'placeholder' ? 'PLACEHOLDER — SHOOT FIRST' : 'STOCK — REPLACE BEFORE PUBLISH';
     return { html: `<img src="${m.urls[0]}" style="max-height:220px" alt="${tag}">`, tag };
   }
   if (covers[d.sku]) return { html: `<img src="${covers[d.sku]}" style="max-height:220px" alt="stock cover">`, tag: 'STOCK COVER' };
