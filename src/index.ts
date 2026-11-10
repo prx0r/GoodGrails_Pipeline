@@ -52,7 +52,17 @@ router.get('/dashboard', async () =>
 
 // ========== PUBLIC ROUTES ==========
 
-// Privacy policy (required for eBay OAuth consent — single-user own-store app).
+// Listing previews (renders GitHub-hosted PREVIEWS.html — drafts, nothing live).
+router.get('/previews', async () => {
+  const res = await fetch(
+    'https://raw.githubusercontent.com/prx0r/GoodGrails_Pipeline/main/exports-descriptions/PREVIEWS.html',
+    { cf: { cacheTtl: 300 } }
+  );
+  if (!res.ok) return new Response('Previews unavailable', { status: 502 });
+  return new Response(await res.text(), {
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=300' }
+  });
+});
 router.get('/privacy', async () =>
   new Response(
     `Hegelian Books / GoodGrails Seller — Privacy Policy\n\n` +
