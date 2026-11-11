@@ -1,0 +1,16 @@
+[Unit]
+Description=Cloudflare quick tunnel for GoodGrails MCP
+After=goodgrails-mcp.service network-online.target
+Wants=goodgrails-mcp.service network-online.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/cloudflared tunnel --url http://127.0.0.1:8931 --no-autoupdate
+Restart=always
+RestartSec=5
+StandardOutput=append:/var/log/goodgrails-tunnel.log
+StandardError=append:/var/log/goodgrails-tunnel.log
+
+[Install]
+WantedBy=multi-user.target

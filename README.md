@@ -110,12 +110,15 @@ Private (`Authorization: Bearer $ADMIN_TOKEN`):
 
 ## Agent control (MCP)
 
-`mcp/server.mjs` exposes the admin API as MCP tools (inventory, verification,
-photos, pricing, comps, listings, orders, exports) so an agent can operate the
-catalogue conversationally.
+`mcp/seller-server.mjs` defines the tool surface (inventory, verification,
+photos, pricing, comps, listings, orders, exports) once; two front-ends serve it:
+
+- **stdio** — `mcp/server.mjs` for local agents.
+- **Streamable HTTP** — `mcp/http.mjs` for remote agents and ChatGPT connectors.
 
 ```bash
 npm run mcp        # stdio server; uses SELLER_API_URL + SELLER_ADMIN_TOKEN
+npm run mcp:http   # HTTP on 127.0.0.1:8931; optional MCP_TOKEN auth
 ```
 
 Register with opencode (`~/.config/opencode/opencode.jsonc`):
@@ -133,3 +136,17 @@ Register with opencode (`~/.config/opencode/opencode.jsonc`):
 The server reads `ADMIN_TOKEN` from `.dev.vars` when `SELLER_ADMIN_TOKEN` is not
 set, so local development needs no extra config. It expects `wrangler dev` to
 be running (`npm run dev`, default `http://127.0.0.1:8787`).
+
+### Remote / ChatGPT
+
+The live remote endpoint is the HTTP front-end behind a Cloudflare tunnel
+(systemd `goodgrails-mcp.service` + `goodgrails-mcp-tunnel.service`, both
+`Restart=always`). See:
+
+- [CHATGPT-PLUGIN.md](CHATGPT-PLUGIN.md) — connector URL, tool list, file map,
+  monitoring, auth plan.
+- [docs/REMOTE-MCP-PLAN.md](docs/REMOTE-MCP-PLAN.md) — architecture + 10 todos,
+  including the stable in-Worker `/mcp` route (`src/mcp/remote.ts`) that ships
+  with `wrangler deploy` once the Cloudflare token is rotated.
+- [deploy/install-mcp-tunnel.sh](deploy/install-mcp-tunnel.sh) — install the units.
+

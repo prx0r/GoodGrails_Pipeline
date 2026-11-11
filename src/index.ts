@@ -13,6 +13,7 @@ import * as inventory from './routes/inventory';
 import { dashboardHtml } from './ui/dashboard';
 import { requireAdmin } from './services/auth';
 import { errorResponse } from './utils/helpers';
+import { handleMcpRequest } from './mcp/remote';
 
 const router = new Router();
 
@@ -161,6 +162,18 @@ router.patch('/api/admin/books/:id/approve', protectedRoute((req, env, params) =
 export default {
   async fetch(request: Request, env: Env, _ctx: ExecutionContext): Promise<Response> {
     try {
+      // Remote MCP endpoint (Streamable HTTP). Intercepted before the router so
+      // it can serve GET (SSE/initialize), POST (messages) and DELETE (session).
+      //   /mcp                -> bearer token required
+      //   /mcp/s/<secret>     -> MCP_PATH_SECRET in the path (no-auth connectors)
+      const { pathname } = new URL(request.url);
+      if (pathname === '/mcp' || pathname === '/mcp/' || pathname.startsWith('/mcp/s/')) {
+        const secret = pathname.startsWith('/mcp/s/')
+          ? decodeURIComponent(pathname.slice('/mcp/s/'.length))
+          : undefined;
+        return handleMcpRequest(request, env, secret);
+      }
+
       return await router.route(request, env);
     } catch (error) {
       console.error('Worker error:', error);

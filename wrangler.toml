@@ -38,6 +38,10 @@ ENVIRONMENT = "production"
 # Required to use the dashboard/admin API:
 #   ADMIN_TOKEN                  bearer token for /api/admin/* and /
 #
+# Optional remote MCP (in-Worker /mcp):
+#   MCP_PATH_SECRET              secret path token for /mcp/s/<secret> (no-auth
+#                                connectors). If unset, /mcp needs ADMIN_TOKEN.
+#
 # Required only when a marketplace is actually enabled:
 #   EBAY_CLIENT_ID, EBAY_CLIENT_SECRET, EBAY_REFRESH_TOKEN
 #   EBAY_ENVIRONMENT             "sandbox" or "production"

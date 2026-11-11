@@ -1,0 +1,18 @@
+[Unit]
+Description=GoodGrails seller MCP (Streamable HTTP)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/box/Documents/patala/GoodGrails_Pipeline
+EnvironmentFile=/root/.config/goodgrails/mcp.env
+ExecStart=/usr/bin/node mcp/http.mjs
+Restart=always
+RestartSec=3
+StandardOutput=append:/var/log/goodgrails-mcp.log
+StandardError=append:/var/log/goodgrails-mcp.log
+
+[Install]
+WantedBy=multi-user.target
