@@ -1,0 +1,980 @@
+[
+  {
+    "sku": "BOOK-001",
+    "title": "Jesus and the victory of God",
+    "pick": "9780281074051",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Jesus and the Victory of God",
+      "author": "N. T. Wright",
+      "year": 2015,
+      "publisher": "SPCK Publishing",
+      "isbns": [
+        "9780281074051",
+        "0281074054"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-002",
+    "title": "Poems of Truth",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Poems of Truth",
+      "author": "Michael Dillon",
+      "year": 1957,
+      "publisher": "Linden Press",
+      "isbns": [],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-003",
+    "title": "Encyclopedia of Religion and Nature Volumes I and II",
+    "pick": "9781617952869",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Bible",
+      "author": "Bible",
+      "year": 1200,
+      "publisher": "WATCHTOWER BIBLE AND TRACT SOCIETY OF NEWYORK, INC.; Bible Societies/Collins/Fontana",
+      "isbns": [
+        "0385469616",
+        "9781617952869",
+        "0310437288"
+      ],
+      "editions": 6116
+    }
+  },
+  {
+    "sku": "BOOK-004",
+    "title": "The New Science of Dreaming (Volumes 1-3)",
+    "pick": "9798538967940",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The Wonderful Wizard of Oz",
+      "author": "L. Frank Baum",
+      "year": 1899,
+      "publisher": "Moskovskiĭ rabochi,̆; Follett Digital Press",
+      "isbns": [
+        "9798538967940",
+        "9781541326149",
+        "1405286296"
+      ],
+      "editions": 2049
+    }
+  },
+  {
+    "sku": "BOOK-005",
+    "title": "Studies In Philosophy - Outstanding Dissertations: Frege and the logic of sense and reference",
+    "pick": "9780415937900",
+    "assumed": [
+      "9780415937900"
+    ],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-006",
+    "title": "The Listening Self: Personal Growth, Social Change and the Closure of Metaphysics",
+    "pick": "9780415025836",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The listening self",
+      "author": "David Michael Levin",
+      "publisher": "",
+      "isbns": [
+        "0415025834",
+        "9780415025836"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-007",
+    "title": "The Bardo Guidebook",
+    "pick": "9789627341116",
+    "assumed": [
+      "9789627341116"
+    ],
+    "topCandidate": {
+      "title": "The Bardo Guidebook",
+      "author": "Chokyi Rinpoche",
+      "year": 2004,
+      "publisher": "North Atlantic Books",
+      "isbns": [
+        "9627341118",
+        "9789627341116"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-008",
+    "title": "Locke",
+    "pick": "9781400110513",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The Lies of Locke Lamora",
+      "author": "Scott Lynch",
+      "year": 2001,
+      "publisher": "Gollancz; Bantam",
+      "isbns": [
+        "9781400110513",
+        "1473216796",
+        "0553804677"
+      ],
+      "editions": 17
+    }
+  },
+  {
+    "sku": "BOOK-009",
+    "title": "Reasoning",
+    "pick": "9782226399311",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Thirteen reasons why",
+      "author": "Jay Asher, Jay Asher",
+      "year": 2007,
+      "publisher": "Razor Bill; Ernst Klett Sprachen",
+      "isbns": [
+        "0451478290",
+        "9782226399311",
+        "9781536402957"
+      ],
+      "editions": 32
+    }
+  },
+  {
+    "sku": "BOOK-010",
+    "title": "Cybernetics of Consciousness - Theory and Practice of Meditation",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-011",
+    "title": "Reincarnation- Past Lives and The Akashic Record",
+    "pick": "9780983200277",
+    "assumed": [
+      "9780983200277"
+    ],
+    "topCandidate": {
+      "title": "Awareness Techniques - Book 1",
+      "author": "William Swygard",
+      "year": 1975,
+      "publisher": "William A. Reilly, Awareness Techniques sub. Theatre Unuiversuty, Inc.",
+      "isbns": [],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-012",
+    "title": "Plato's Ghost",
+    "pick": "9780691136103",
+    "assumed": [
+      "9780691136103"
+    ],
+    "topCandidate": {
+      "title": "Plato's ghost",
+      "author": "Jeremy J. Gray",
+      "year": 2008,
+      "publisher": "Princeton University Press",
+      "isbns": [
+        "0691242046",
+        "9780691136103",
+        "9781282458352"
+      ],
+      "editions": 4
+    }
+  },
+  {
+    "sku": "BOOK-013",
+    "title": "Plato's Euthyphro: Apology of Socrates and Crito",
+    "pick": "9781978450561",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Εὐθύφρων / Κρίτων / Φαίδων / Ἀπολογία Σωκράτους",
+      "author": "Plato",
+      "year": 1871,
+      "publisher": "Macmillan and Co.; PENGUIN",
+      "isbns": [
+        "9781978450561",
+        "0785826173",
+        "9781887250443"
+      ],
+      "editions": 126
+    }
+  },
+  {
+    "sku": "BOOK-014",
+    "title": "Complete enlightenment",
+    "pick": "9781570624001",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Complete Enlightenment",
+      "author": "Master Sheng Yen",
+      "year": 1999,
+      "publisher": "Shambhala",
+      "isbns": [
+        "9781570624001",
+        "1570624003"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-015",
+    "title": "Philosophical Studies",
+    "pick": "9781443726801",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Philosophical studies",
+      "author": "George Edward Moore",
+      "year": 1922,
+      "publisher": "Kegan Paul, Trench, Trubner; Littlefield, Adams",
+      "isbns": [
+        "9781443726801",
+        "9781406744682",
+        "1298321875"
+      ],
+      "editions": 29
+    }
+  },
+  {
+    "sku": "BOOK-016",
+    "title": "Six yogas of Naropa & Teachings on Mahamudra",
+    "pick": "9780937938331",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Six yogas of Naropa & teachings on Mahamudra",
+      "author": "Chang, Chen-chi",
+      "year": 1986,
+      "publisher": "Snow Lion; Brand: Snow Lion Pubns",
+      "isbns": [
+        "0937938335",
+        "9780937938331"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-017",
+    "title": "Against Cartesian Philosophy",
+    "pick": "9781591021025",
+    "assumed": [
+      "9781591021025"
+    ],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-018",
+    "title": "Wittgenstein and the problem of other minds",
+    "pick": "9780391023987",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Wittgenstein and the problem of other minds",
+      "author": "Harold Morick",
+      "year": 1967,
+      "publisher": "McGraw-Hill",
+      "isbns": [],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-019",
+    "title": "Postmodern anarchism",
+    "pick": "9780739105221",
+    "assumed": [
+      "9780739105221"
+    ],
+    "topCandidate": {
+      "title": "Postmodern Anarchism",
+      "author": "Lewis Call",
+      "year": 2003,
+      "publisher": "Lexington Books",
+      "isbns": [
+        "0739105221",
+        "9780739105221"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-020",
+    "title": "Jean Baudrillard: A Study in Cultural Metaphysics, PB, Prentice Hall 1996",
+    "pick": "9780134333687",
+    "assumed": [
+      "9780134333687"
+    ],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-021",
+    "title": "Free-born John Lilburne: English Libertarian: And Other Essays on Liberty",
+    "pick": "9781846245640",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Free-Born John Lilburne",
+      "author": "Peter A. Richards",
+      "year": 2011,
+      "publisher": "Book Guild Publishing, Limited; Book Guild Limited",
+      "isbns": [
+        "9781846245640",
+        "1846245648"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-022",
+    "title": "The Real Questions - Eden to Big Apple",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-023",
+    "title": "Perennial Tradition",
+    "pick": "9789061868477",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The perennial tradition of Neoplatonism",
+      "author": "John J. Cleary",
+      "year": 1997,
+      "publisher": "Leuven University Press",
+      "isbns": [
+        "9789061868477",
+        "9061868475"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-024",
+    "title": "Visual Representations in Science",
+    "pick": "1138089931",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Visual Representations in Science",
+      "author": "Nicola Mößner",
+      "year": 2018,
+      "publisher": "Taylor & Francis Group; Taylor & Francis",
+      "isbns": [
+        "1138089931",
+        "1351611437",
+        "1351611453"
+      ],
+      "editions": 5
+    }
+  },
+  {
+    "sku": "BOOK-025",
+    "title": "Animal minds & human morals",
+    "pick": "9780801429484",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-026",
+    "title": "Imagining: A Phenomenological Study - Second Edition by Edward S. Casey (Indiana, 2000)",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-027",
+    "title": "Panpsychism",
+    "pick": "9780262283731",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Panpsychism in the West",
+      "author": "David Skrbina",
+      "year": 2005,
+      "publisher": "MIT Press",
+      "isbns": [
+        "9780262283731",
+        "0262341522",
+        "0262341514"
+      ],
+      "editions": 5
+    }
+  },
+  {
+    "sku": "BOOK-028",
+    "title": "Living Forms of the Imagination",
+    "pick": "9780567032942",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Living forms of the imagination",
+      "author": "Douglas Hedley",
+      "year": 2008,
+      "publisher": "Bloomsbury Publishing Plc; T & T Clark",
+      "isbns": [
+        "9780567032942",
+        "9780567032959",
+        "0567032949"
+      ],
+      "editions": 4
+    }
+  },
+  {
+    "sku": "BOOK-029",
+    "title": "This Matter of Culture",
+    "pick": "9780575004191",
+    "assumed": [],
+    "topCandidate": {
+      "title": "This matter of culture",
+      "author": "Jiddu Krishnamurti",
+      "year": 1964,
+      "publisher": "Gollancz; Krishnamurti Foundation India",
+      "isbns": [
+        "9780575004191",
+        "9788187326267",
+        "0575004193"
+      ],
+      "editions": 2
+    }
+  },
+  {
+    "sku": "BOOK-030",
+    "title": "Seeing myself",
+    "pick": "9780688178369",
+    "assumed": [],
+    "topCandidate": {
+      "title": "I See Myself (Vicki Cobb Science Play)",
+      "author": "Vicki Cobb",
+      "year": 2002,
+      "publisher": "HarperCollins Publishers; HarperCollins",
+      "isbns": [
+        "0688178367",
+        "0688178375",
+        "9780688178369"
+      ],
+      "editions": 3
+    }
+  },
+  {
+    "sku": "BOOK-031",
+    "title": "Straight Course to God",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": {
+      "title": "straight course to god",
+      "author": "dom augustine morris",
+      "year": 1958,
+      "publisher": "the faith press",
+      "isbns": [],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-032",
+    "title": "Prior & Posterior Analytics",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Prior and posterior analytics",
+      "author": "Aristotle",
+      "year": 1949,
+      "publisher": "Dutton; Clarendon Press",
+      "isbns": [],
+      "editions": 5
+    }
+  },
+  {
+    "sku": "BOOK-033",
+    "title": "Toward a science of consciousness",
+    "pick": "9780385290661",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Toward a Science of Consciousness",
+      "author": "Kenneth R. Pelletier",
+      "year": 1978,
+      "publisher": "Delacorte Press; Celestial Arts",
+      "isbns": [
+        "9780385290661",
+        "9780890874196",
+        "0440586402"
+      ],
+      "editions": 3
+    }
+  },
+  {
+    "sku": "BOOK-034",
+    "title": "The Essential Turing - ed. B Jack Copeland",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-035",
+    "title": "The Nectar of Manjushri's Speech. A Detailed Commentary on Shantideva's Way [...] Kunzang Pelden.",
+    "pick": "9781590306994",
+    "assumed": [
+      "9781590306994"
+    ],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-036",
+    "title": "Ascertaining Certainty About the View",
+    "pick": "9781877294006",
+    "assumed": [
+      "9781877294006"
+    ],
+    "topCandidate": {
+      "title": "Ascertaining certainty about the view",
+      "author": "Khenpo Tsultrim Gyamtso Rinpoche",
+      "year": 2001,
+      "publisher": "Zhyisil Chokyi Ghatsal Publications",
+      "isbns": [
+        "9781877294006",
+        "1877294004"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-037",
+    "title": "Time and Chance",
+    "pick": "9780712622004",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Time and Chance",
+      "author": "Anne Weale",
+      "year": 1989,
+      "publisher": "Century; Random House of Canada, Limited",
+      "isbns": [
+        "9780712622004",
+        "0708985866",
+        "0712622004"
+      ],
+      "editions": 4
+    }
+  },
+  {
+    "sku": "BOOK-038",
+    "title": "Science and Ethics",
+    "pick": "9781250316967",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Open Borders",
+      "author": "Bryan Caplan, Zach Weinersmith",
+      "year": 2019,
+      "publisher": "First Second",
+      "isbns": [
+        "1250316960",
+        "9781250316967",
+        "1250316979"
+      ],
+      "editions": 2
+    }
+  },
+  {
+    "sku": "BOOK-039",
+    "title": "The poetry of physics and the physics of poetry Robert K Logan",
+    "pick": "9789814295932",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The poetry of physics and the physics of poetry",
+      "author": "Robert K. Logan",
+      "year": 2010,
+      "publisher": "World Scientific",
+      "isbns": [
+        "9789814295932",
+        "9814295922",
+        "9814295930"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-040",
+    "title": "Understanding the Representational Mind",
+    "pick": "9780262161244",
+    "assumed": [
+      "9780262161244"
+    ],
+    "topCandidate": {
+      "title": "Understanding the representational mind",
+      "author": "Josef Perner",
+      "year": 1991,
+      "publisher": "MIT; MIT Press",
+      "isbns": [
+        "9780262161244",
+        "9780262660822",
+        "0262660822"
+      ],
+      "editions": 2
+    }
+  },
+  {
+    "sku": "BOOK-041",
+    "title": "TRUTH, VALUE & JUSTIFICATION - \\*PRICE LOWERED\\*",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-042",
+    "title": "Belief, Change and Forms of Life by D.Z. Phillips",
+    "pick": "9780391033856",
+    "assumed": [
+      "9780391033856"
+    ],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-043",
+    "title": "Before Dinner. Philosophy And Ethics Of Food. Michiel Korthals.",
+    "pick": "9781402029929",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Before Dinner",
+      "author": "Michiel Korthals",
+      "year": 2004,
+      "publisher": "Springer",
+      "isbns": [
+        "9781402029929",
+        "1402029926"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-044",
+    "title": "Moral Matters",
+    "pick": "9780470779934",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Morality Matters",
+      "author": "Roger Trigg",
+      "year": 2004,
+      "publisher": "Blackwell Pub.; Blackwell Publishing Limited",
+      "isbns": [
+        "0470690224",
+        "0631235957",
+        "9780470779934"
+      ],
+      "editions": 6
+    }
+  },
+  {
+    "sku": "BOOK-045",
+    "title": "Where Do We Go From Here? Papers From the Louisiana Seminar - Various Authors",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-046",
+    "title": "The Buddhist Unconscious",
+    "pick": "0415298091",
+    "assumed": [
+      "9780415298094"
+    ],
+    "topCandidate": {
+      "title": "The Buddhist unconscious",
+      "author": "William S. Waldron",
+      "year": 2003,
+      "publisher": "Taylor & Francis Group; RoutledgeCurzon",
+      "isbns": [
+        "9781280072574",
+        "0203451171",
+        "9780203451175"
+      ],
+      "editions": 8
+    }
+  },
+  {
+    "sku": "BOOK-047",
+    "title": "The great treatise on the stages of the path to enlightenment",
+    "pick": "9781559391689",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The Great Treatise on the Stages of the Path to Enlightenment, Volume Two",
+      "author": "Tsongkhapa",
+      "year": 2004,
+      "publisher": "Snow Lion Publications",
+      "isbns": [
+        "9781559391689",
+        "1559391685"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-048",
+    "title": "Patterns of Eternity",
+    "pick": "9780863157127",
+    "assumed": [
+      "9780863157127"
+    ],
+    "topCandidate": {
+      "title": "Patterns of Eternity",
+      "author": "Malcolm Stewart",
+      "year": 2009,
+      "publisher": "Floris Books",
+      "isbns": [
+        "9780863157127",
+        "0863157122"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-049",
+    "title": "Dhammapada",
+    "pick": "9780938077879",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The Dhammapada",
+      "author": "Rose Kramer",
+      "year": 1995,
+      "publisher": "Parallax; Parallax Press",
+      "isbns": [
+        "9780938077879",
+        "0938077872"
+      ],
+      "editions": 2
+    }
+  },
+  {
+    "sku": "BOOK-050",
+    "title": "The Bardo Guidebook",
+    "pick": "9789627341116",
+    "assumed": [],
+    "topCandidate": {
+      "title": "The Bardo Guidebook",
+      "author": "Chokyi Rinpoche",
+      "year": 2004,
+      "publisher": "North Atlantic Books",
+      "isbns": [
+        "9627341118",
+        "9789627341116"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-051",
+    "title": "Kindred Sayings Parts II to V: Four Volumes",
+    "pick": "9781617952869",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Bible",
+      "author": "Bible",
+      "year": 1200,
+      "publisher": "WATCHTOWER BIBLE AND TRACT SOCIETY OF NEWYORK, INC.; Bible Societies/Collins/Fontana",
+      "isbns": [
+        "0385469616",
+        "9781617952869",
+        "0310437288"
+      ],
+      "editions": 6116
+    }
+  },
+  {
+    "sku": "BOOK-052",
+    "title": "Silent Mind Holy Mind : A Tibetan Lama's Reflections on Christmas - Thubten Yeshe",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-053",
+    "title": "The Flame and the Light",
+    "pick": "9781957568140",
+    "assumed": [],
+    "topCandidate": {
+      "title": "A Light in the Flame",
+      "author": "Jennifer L. Armentrout",
+      "year": 2022,
+      "publisher": "Blue Box Press; Evil Eye Concepts, Incorporated",
+      "isbns": [
+        "9781957568140",
+        "9781957568157",
+        "1957568143"
+      ],
+      "editions": 9
+    }
+  },
+  {
+    "sku": "BOOK-054",
+    "title": "mind beyond death",
+    "pick": "9781559393010",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Mind Beyond Death",
+      "author": "Dzogchen Ponlop",
+      "year": 2007,
+      "publisher": "Snow Lion Publications; Shambhala Publications, Incorporated",
+      "isbns": [
+        "9781559393010",
+        "9781559398466",
+        "1559392762"
+      ],
+      "editions": 3
+    }
+  },
+  {
+    "sku": "BOOK-055",
+    "title": "Plato The Republic - The Penguin Classics",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-056",
+    "title": "The Platonic Theory of Knowledge",
+    "pick": "9781107448148",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Six essays on the Platonic theory of knowledge",
+      "author": "Marie V. Williams",
+      "year": 1908,
+      "publisher": "The University Press; University of Cambridge ESOL Examinations",
+      "isbns": [
+        "9781107448148",
+        "9781020282089",
+        "1020282088"
+      ],
+      "editions": 5
+    }
+  },
+  {
+    "sku": "BOOK-057",
+    "title": "Living waters",
+    "pick": "9780060628222",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Streams of Living Water",
+      "author": "Richard J. Foster",
+      "year": 1998,
+      "publisher": "HarperAudio; HarperOne",
+      "isbns": [
+        "0060628227",
+        "9780060628222",
+        "0694520497"
+      ],
+      "editions": 4
+    }
+  },
+  {
+    "sku": "BOOK-058",
+    "title": "The Magician's Tables: A Complete Book of Correspondences",
+    "pick": "9781841812359",
+    "assumed": [
+      "9781841812359"
+    ],
+    "topCandidate": {
+      "title": "The Magician's Tables",
+      "author": "Alan Richardson",
+      "year": 2008,
+      "publisher": "Godsfield",
+      "isbns": [
+        "1841812358",
+        "9781841812359"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-059",
+    "title": "The Bhagavad Gita",
+    "pick": "9780451624499",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Bhagavad-Gita",
+      "author": "Vyasa",
+      "year": 1944,
+      "publisher": "Neeland Media LLC; Signet",
+      "isbns": [
+        "9780451624499",
+        "9781420954784",
+        "9781566196703"
+      ],
+      "editions": 40
+    }
+  },
+  {
+    "sku": "BOOK-060",
+    "title": "The Stanzas on Vibration",
+    "pick": "9780791412619",
+    "assumed": [
+      "9780791412619"
+    ],
+    "topCandidate": {
+      "title": "The Stanzas on Vibration",
+      "author": "Mark S.G. Dyczkowski, Varanasi",
+      "year": 2000,
+      "publisher": "UBS Publishers Distributors; Dilip Kumar",
+      "isbns": [
+        "8186117016",
+        "9788186117019"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-061",
+    "title": "A Teaching on the Chenrezig and Amitabha Sadhanas",
+    "pick": "",
+    "assumed": [],
+    "topCandidate": null
+  },
+  {
+    "sku": "BOOK-062",
+    "title": "Polishing the diamond, enlightening the mind",
+    "pick": "9780861711451",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Polishing the diamond, enlightening the mind",
+      "author": "Chae-ung Kim",
+      "year": 1999,
+      "publisher": "Wisdom",
+      "isbns": [
+        "9780861711451",
+        "0861711459"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-063",
+    "title": "Pointing out the great way",
+    "pick": "9780861713042",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Pointing Out the Great Way",
+      "author": "Daniel Brown",
+      "year": 2006,
+      "publisher": "Wisdom Publications",
+      "isbns": [
+        "9780861713042",
+        "0861713044"
+      ],
+      "editions": 1
+    }
+  },
+  {
+    "sku": "BOOK-064",
+    "title": "I am the word (signed copy)",
+    "pick": "9780404058104",
+    "assumed": [],
+    "topCandidate": {
+      "title": "Plays (36)",
+      "author": "William Shakespeare",
+      "year": 1623,
+      "publisher": "printed and sold by Robert Martin; Printed by Dryden Leach, for J. and R. Tonson ...",
+      "isbns": [
+        "0415162211",
+        "1891788302",
+        "9780404058104"
+      ],
+      "editions": 256
+    }
+  }
+]

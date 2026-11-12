@@ -1,0 +1,409 @@
+{
+ "BOOK-002": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-002_front.png"
+  ],
+  "kind": "actual"
+ },
+ "BOOK-003": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-003_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-004": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-004_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-005": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-005_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-006": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-006_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-007": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-007_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-012": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-012_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-013": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-013_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-014": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-014_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-016": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-016_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-017": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-017_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-018": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-018_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-019": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-019_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-020": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-020_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-023": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-023_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-025": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-025_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-029": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-029_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-030": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-030_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-038": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-038_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-039": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-039_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-040": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-040_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-042": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-042_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-043": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-043_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-046": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-046_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-047": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-047_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-048": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-048_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-049": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-049_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-050": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-050_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-054": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-054_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-057": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-057_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-058": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-058_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-060": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-060_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-062": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-062_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-063": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-063_stock.jpg"
+  ],
+  "kind": "stock"
+ },
+ "BOOK-008": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-008_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Locke (Oneworld Thinkers) Edward Feser"
+ },
+ "BOOK-009": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-009_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Reasoning Michael Scriven"
+ },
+ "BOOK-027": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-027_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Panpsychism in the West David Skrbina"
+ },
+ "BOOK-032": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-032_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Prior and posterior analytics Aristotle"
+ },
+ "BOOK-033": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-033_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Toward a Science of Consciousness Kenneth R. Pelletier"
+ },
+ "BOOK-044": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-044_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: Moral Matters Mark Dooley"
+ },
+ "NEW-PHILFREEDOM": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/NEW-PHILFREEDOM_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "OL cover: The philosophy of spiritual activity (freedom) Rudolf Steiner"
+ },
+ "BOOK-011": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-011_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "IA scan: bbe-lois-wetzel-reincarnation-past-lives-and-the-a"
+ },
+ "BOOK-021": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-021_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "IA scan: Free-Born John Lilburne: English Libertarian and O"
+ },
+ "BOOK-022": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-022_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "IA scan: The real questions : eden to the big apple"
+ },
+ "BOOK-031": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-031_stock.jpg"
+  ],
+  "kind": "stock",
+  "note": "IA scan: straight course to god"
+ },
+ "BOOK-010": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-010_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-015": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-015_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-024": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-024_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-026": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-026_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-028": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-028_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-034": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-034_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-035": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-035_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-036": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-036_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-037": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-037_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-041": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-041_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-045": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-045_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-051": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-051_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-052": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-052_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-053": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-053_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-055": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-055_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-056": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-056_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-059": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-059_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-061": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-061_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-064": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-064_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "NEW-RAINBOW": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/NEW-RAINBOW_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ },
+ "BOOK-001": {
+  "urls": [
+   "https://goodgrails-seller.tradesprior.workers.dev/media/goodgrails/BOOK-001_placeholder.jpg"
+  ],
+  "kind": "placeholder"
+ }
+}

@@ -23,6 +23,9 @@ export interface Env {
   ABEBOOKS_API_KEY?: string;
   ABEBOOKS_API_SECRET?: string;
   BIBLIO_API_KEY?: string;
+  // eBay Marketplace Account Deletion notification (public endpoint, no PII stored)
+  EBAY_DELETION_VERIFICATION_TOKEN?: string;
+  EBAY_DELETION_ENDPOINT?: string;
 
   // Environment variables
   FRONTEND_URL: string;

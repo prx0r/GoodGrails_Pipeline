@@ -53,7 +53,49 @@ router.get('/dashboard', async () =>
 
 // ========== PUBLIC ROUTES ==========
 
+// ISBN review sheet (default + 3 alternates per book for owner selection).
+router.get('/review', async () => {
+  const res = await fetch(
+    'https://raw.githubusercontent.com/prx0r/GoodGrails_Pipeline/main/exports-descriptions/ISBN-REVIEW.html',
+    { cf: { cacheTtl: 300 } }
+  );
+  if (!res.ok) return new Response('Review sheet unavailable', { status: 502 });
+  return new Response(await res.text(), {
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=300' }
+  });
+});
+router.get('/previews', async () => {
+  const res = await fetch(
+    'https://raw.githubusercontent.com/prx0r/GoodGrails_Pipeline/main/exports-descriptions/PREVIEWS.html',
+    { cf: { cacheTtl: 300 } }
+  );
+  if (!res.ok) return new Response('Previews unavailable', { status: 502 });
+  return new Response(await res.text(), {
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'public, max-age=300' }
+  });
+});
+router.get('/privacy', async () =>
+  new Response(
+    `Hegelian Books / GoodGrails Seller — Privacy Policy\n\n` +
+    `This application manages a single seller's own book inventory (own listings only).\n` +
+    `It does not collect, store, or share any third-party eBay member data.\n` +
+    `eBay OAuth is used solely to let the seller's own application manage their own\n` +
+    `inventory, offers, and orders via the eBay Sell APIs.\n` +
+    `No buyer or member personal data is retained beyond what is required to fulfil orders.\n` +
+    `Contact: hegelianuk@gmail.com\n`,
+    { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=3600' } }
+  )
+);
+
 router.get('/api/health', publicRoutes.healthCheck);
+// eBay Marketplace Account Deletion notification (public, no auth — eBay calls it).
+// Required for production keyset compliance; single-seller store holds no member PII.
+router.get('/api/ebay/account-deletion', (req, env) =>
+  import('./routes/ebayDeletion').then(m => m.handleDeletionChallenge(req, env))
+);
+router.post('/api/ebay/account-deletion', (req, env) =>
+  import('./routes/ebayDeletion').then(m => m.handleDeletionNotification(req, env))
+);
 router.get('/api/books', publicRoutes.listPublicBooks);
 router.get('/api/books/:id', (req, env, params) =>
   publicRoutes.getPublicBook(req, env, params!.id)

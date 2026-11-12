@@ -1,0 +1,464 @@
+[
+  {
+    "sku": "BOOK-001",
+    "price": "9.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062695011"
+  },
+  {
+    "sku": "BOOK-002",
+    "price": "695.00",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062701011"
+  },
+  {
+    "sku": "BOOK-003",
+    "price": "179.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062711011"
+  },
+  {
+    "sku": "BOOK-004",
+    "price": "229.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062717011"
+  },
+  {
+    "sku": "BOOK-005",
+    "price": "79.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062754011"
+  },
+  {
+    "sku": "BOOK-006",
+    "price": "18.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062765011"
+  },
+  {
+    "sku": "BOOK-007",
+    "price": "44.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062780011"
+  },
+  {
+    "sku": "BOOK-008",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062800011"
+  },
+  {
+    "sku": "BOOK-009",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062816011"
+  },
+  {
+    "sku": "BOOK-010",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062832011"
+  },
+  {
+    "sku": "BOOK-011",
+    "price": "9.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062843011"
+  },
+  {
+    "sku": "BOOK-012",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062856011"
+  },
+  {
+    "sku": "BOOK-013",
+    "price": "8.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062867011"
+  },
+  {
+    "sku": "BOOK-014",
+    "price": "8.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062879011"
+  },
+  {
+    "sku": "BOOK-015",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352062891011"
+  },
+  {
+    "sku": "BOOK-016",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063004011"
+  },
+  {
+    "sku": "BOOK-017",
+    "price": "59.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063198011"
+  },
+  {
+    "sku": "BOOK-018",
+    "price": "8.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063216011"
+  },
+  {
+    "sku": "BOOK-019",
+    "price": "54.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063238011"
+  },
+  {
+    "sku": "BOOK-020",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063264011"
+  },
+  {
+    "sku": "BOOK-021",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063274011"
+  },
+  {
+    "sku": "BOOK-022",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063286011"
+  },
+  {
+    "sku": "BOOK-023",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063296011"
+  },
+  {
+    "sku": "BOOK-024",
+    "price": "19.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063317011"
+  },
+  {
+    "sku": "BOOK-025",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063325011"
+  },
+  {
+    "sku": "BOOK-026",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063332011"
+  },
+  {
+    "sku": "BOOK-027",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063340011"
+  },
+  {
+    "sku": "BOOK-028",
+    "price": "23.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063356011"
+  },
+  {
+    "sku": "BOOK-029",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063368011"
+  },
+  {
+    "sku": "BOOK-030",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063377011"
+  },
+  {
+    "sku": "BOOK-031",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063398011"
+  },
+  {
+    "sku": "BOOK-032",
+    "price": "16.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063411011"
+  },
+  {
+    "sku": "BOOK-033",
+    "price": "25.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063441011"
+  },
+  {
+    "sku": "BOOK-034",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063456011"
+  },
+  {
+    "sku": "BOOK-035",
+    "price": "17.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063500011"
+  },
+  {
+    "sku": "BOOK-036",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063533011"
+  },
+  {
+    "sku": "BOOK-037",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063549011"
+  },
+  {
+    "sku": "BOOK-038",
+    "price": "7.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063562011"
+  },
+  {
+    "sku": "BOOK-039",
+    "price": "19.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063599011"
+  },
+  {
+    "sku": "BOOK-040",
+    "price": "29.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063609011"
+  },
+  {
+    "sku": "BOOK-041",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063656011"
+  },
+  {
+    "sku": "BOOK-042",
+    "price": "19.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063696011"
+  },
+  {
+    "sku": "BOOK-043",
+    "price": "34.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063743011"
+  },
+  {
+    "sku": "BOOK-044",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063758011"
+  },
+  {
+    "sku": "BOOK-045",
+    "price": "11.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063776011"
+  },
+  {
+    "sku": "BOOK-046",
+    "price": "84.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063786011"
+  },
+  {
+    "sku": "BOOK-047",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063792011"
+  },
+  {
+    "sku": "BOOK-048",
+    "price": "39.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063812011"
+  },
+  {
+    "sku": "BOOK-049",
+    "price": "44.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063856011"
+  },
+  {
+    "sku": "BOOK-050",
+    "price": "44.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063870011"
+  },
+  {
+    "sku": "BOOK-051",
+    "price": "69.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063879011"
+  },
+  {
+    "sku": "BOOK-052",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063894011"
+  },
+  {
+    "sku": "BOOK-053",
+    "price": "6.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063907011"
+  },
+  {
+    "sku": "BOOK-054",
+    "price": "10.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063916011"
+  },
+  {
+    "sku": "BOOK-055",
+    "price": "10.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063930011"
+  },
+  {
+    "sku": "BOOK-056",
+    "price": "21.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063966011"
+  },
+  {
+    "sku": "BOOK-057",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063976011"
+  },
+  {
+    "sku": "BOOK-058",
+    "price": "52.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063981011"
+  },
+  {
+    "sku": "BOOK-059",
+    "price": "12.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063988011"
+  },
+  {
+    "sku": "BOOK-060",
+    "price": "19.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352063997011"
+  },
+  {
+    "sku": "BOOK-061",
+    "price": "8.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064023011"
+  },
+  {
+    "sku": "BOOK-062",
+    "price": "6.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064039011"
+  },
+  {
+    "sku": "BOOK-063",
+    "price": "14.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064072011"
+  },
+  {
+    "sku": "BOOK-064",
+    "price": "24.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064086011"
+  },
+  {
+    "sku": "NEW-RAINBOW",
+    "price": "19.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064095011"
+  },
+  {
+    "sku": "NEW-PHILFREEDOM",
+    "price": "18.99",
+    "inventory": 204,
+    "offer": 201,
+    "offerId": "352064130011"
+  }
+]
