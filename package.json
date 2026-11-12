@@ -14,7 +14,8 @@
     "db:migrate:remote": "wrangler d1 execute bookstore-db --remote --file=migrations/0001_multichannel.sql",
     "db:schema:local": "wrangler d1 execute bookstore-db --local --file=schema.sql",
     "db:schema:remote": "wrangler d1 execute bookstore-db --remote --file=schema.sql",
-    "mcp": "node mcp/server.mjs"
+    "mcp": "node mcp/server.mjs",
+    "mcp:http": "node mcp/http.mjs"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20241022.0"

@@ -14,6 +14,8 @@ export interface Env {
 
   // Multichannel seller secrets (all optional until a channel is enabled)
   ADMIN_TOKEN?: string;
+  /** Secret path token for remote MCP connectors that cannot send a bearer header. */
+  MCP_PATH_SECRET?: string;
   EBAY_CLIENT_ID?: string;
   EBAY_CLIENT_SECRET?: string;
   EBAY_REFRESH_TOKEN?: string;
